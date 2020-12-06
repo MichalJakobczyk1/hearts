@@ -5,7 +5,7 @@
 
 ❤️ ❤️ ❤️
 
-## "Włącz w gorszy dzień
+## Włącz w gorszy dzień
 
 Niech w każdy gorszy dzień chociaż to sprawi Ci uśmiech
 
