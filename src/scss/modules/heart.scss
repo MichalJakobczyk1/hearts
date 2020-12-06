@@ -1,0 +1,41 @@
+@keyframes heartFall {
+  from {
+    top: 0;
+  }
+  to {
+    top: 100%;
+  }
+}
+
+@keyframes heartRotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(-45deg);
+  }
+  40% {
+    transform: rotate(45deg);
+  }
+  60% {
+    transform: rotate(-45deg);
+  }
+  80% {
+    transform: rotate(45deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes heartScale {
+  0% {
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

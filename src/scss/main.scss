@@ -1,10 +1,13 @@
 @import "~normalize.css";
 @import "modules/heart.scss";
+@import url("https://fonts.googleapis.com/css2?family=Nerko+One&display=swap");
 
 body {
-  background: rgb(255, 0, 151);
+  font-family: "Nerko One", cursive;
+  background: rgb(255, 146, 211);
   background: linear-gradient(
     180deg,
+    rgba(255, 146, 211, 1) 0%,
     rgba(255, 0, 151, 1) 50%,
     rgba(255, 0, 32, 1) 100%
   );
@@ -15,17 +18,23 @@ body {
 }
 
 .h1 {
+  color: rgb(255, 146, 211);
+  -webkit-text-stroke: 2px black;
+  font-size: 48px;
+  z-index: 1;
 }
 
 .heart {
   &__container {
- 
     &-image {
+      animation: heartFall 10s infinite linear forwards,heartRotate 5s infinite ease-in-out forwards,heartScale 1.5s infinite ease-in-out forwards;
       position: absolute;
       top: 0;
       left: 0;
+      padding: 0 50px;
       width: 50px;
       height: 50px;
+      z-index: 0;
     }
   }
 }
