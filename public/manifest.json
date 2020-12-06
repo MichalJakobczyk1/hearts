@@ -1,12 +1,12 @@
 {
-  "name": "WTF: PWA",
-  "short_name": "WTF: PWA",
-  "theme_color": "#2D2241",
-  "background_color": "#2D2241",
+  "name": "Apka do poprawiania humorku",
+  "short_name": "Apka do poprawiania humorku",
+  "theme_color": " rgba(255, 0, 151, 1)",
+  "background_color": " rgba(255, 0, 151, 1)",
   "display": "standalone",
   "orientation": "portrait",
-  "scope": "/wtf-webpack-starter/",
-  "start_url": "/wtf-webpack-starter/",
+  "scope": "/hearts/",
+  "start_url": "/hearts/",
   "icons": [
     {
       "src": "pwa/manifest-icon-192.png",
