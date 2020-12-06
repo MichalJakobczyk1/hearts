@@ -23,7 +23,7 @@ function renderHeartContainer(heart) {
     heartContainer.style.left = `${Math.random() * 100}%`;
 
     const img = document.createElement('img');
-    img.src = 'dist/img/heart.f76b9508.svg';
+    img.src = 'hearts.svg';
     img.classList.add('heart__container-image');
 
     img.style.transform = `scale(${Math.random()})`;
