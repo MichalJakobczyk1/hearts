@@ -35,4 +35,16 @@ function renderHeartContainer(heart) {
 }
 
 const heart = renderHeart();
-renderHeartContainer(heart);
+// renderHeartContainer(heart);
+
+const button = document.querySelector(".play--js");
+
+function renderAudio() {
+    const audio = document.createElement('audio');
+    audio.src = 'circles.mp3';
+    audio.play();
+
+    document.body.appendChild(audio);
+};
+
+button.addEventListener("click",(renderAudio));
