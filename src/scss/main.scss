@@ -49,18 +49,27 @@ body {
   }
 }
 
-.play {
-  z-index: 1;
-  width: 60px;
-  height: 60px;
-  border: 3px solid #000;
-  border-radius: 15px;
-  position: relative;
-  &__img {
-    position: absolute;
-    top: -12px;
-    left: -9px;
-    width: 80px;
-    height: 80px;
+
+.button{
+  &--play {
+    background-image: url("../assets/img/play.svg");
+    background-size: contain;
+    background-color: rgb(255, 146, 211);
+    z-index: 1;
+    width: 60px;
+    height: 60px;
+    border: 3px solid #000;
+    border-radius: 15px;
+  }
+  &--pause {
+    background-image: url("../assets/img/pause.svg");
+    background-size: contain;
+    background-color: rgb(255, 146, 211);
+    z-index: 1;
+    width: 60px;
+    height: 60px;
+    border: 3px solid #000;
+    border-radius: 15px;
   }
 }
+
