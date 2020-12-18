@@ -38,16 +38,13 @@ const heart = renderHeart();
 renderHeartContainer(heart);
 
 const button = document.querySelector(".button--play");
-const audio = document.createElement("audio");
+const audio = document.querySelector(".audio--js");
 
+//zmienić audio na html
 button.addEventListener("click", () => {
   if (button.classList.contains("button--play")) {
-    audio.classList.add("audio");
-    audio.src = "../public/circles.mp3";
     audio.play();
     audio.volume = 0.1;
-
-    document.body.appendChild(audio);
 
     button.classList.add("button--pause");
     button.classList.remove("button--play");
