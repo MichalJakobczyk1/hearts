@@ -40,7 +40,6 @@ renderHeartContainer(heart);
 const button = document.querySelector(".button--play");
 const audio = document.querySelector(".audio--js");
 
-//zmienić audio na html
 button.addEventListener("click", () => {
   if (button.classList.contains("button--play")) {
     audio.play();
