@@ -1,12 +1,12 @@
 ![cover](public/hearts.jpg)
 
-# Apka do poprawiania humorku 
+# App to make you feel better
 
 
 ❤️ ❤️ ❤️
 
-## Włącz w gorszy dzień
+## Launch it when you are in a bad mood
 
-Niech w każdy gorszy dzień chociaż to sprawi Ci uśmiech
+Little smile for your everyday journey
 
 
